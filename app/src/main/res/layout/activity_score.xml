@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image10"
+    tools:context=".view.ScoreActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/timeover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Your Time is Up!"
+                android:textColor="@color/colorOnSecondary"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/finalScoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Your Score"
+                android:textColor="@color/colorOnSecondary"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:textColor="@color/colorOnSecondary"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/restartButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="@color/colorAccent"
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="Play Again"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
+

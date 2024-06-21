@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SugarSplash</string>
+    <string name="timeup">Your Time is Up!</string>
+    <string name="playagin">PLAY AGAIN</string>
+    <string name="slogan">Crush it, Swap it, taste the victory!</string>
+    <string name="intro">Match 3 candies in a row or column. Score high before time runs out!</string>
+    <string name="play">PLAY</string>
+    <string name="score">Score - </string>
+    <string name="time">30s</string>
+    <string name="loading">Loading...</string>
+
+</resources>

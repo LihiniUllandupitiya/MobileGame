@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image13"
+    tools:context=".view.PlayActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/slogan"
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bubblegum_sans"
+            android:layout_marginTop="100sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/intro"
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="63dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="@string/play"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
